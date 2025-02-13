@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -35,8 +35,10 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Navbar />
-          {children}
+          <div className="min-h-screen dark:bg-gradient-to-b dark: from-gray-950 dark: via-gray-900 dark: to-slate-800">
+            <Navbar />
+            {children}
+          </div>
         </ThemeProvider>
       </body>
     </html>
