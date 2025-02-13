@@ -20,7 +20,7 @@ export default function Navbar() {
           </h1>
         </Link>
       </div>
-      <div className="flex space-x-2 border px-4 py-2 rounded-md font-mono">
+      <div className="md:inline-flex space-x-2 border px-4 py-2 rounded-md font-mono hidden">
         {navlinks.map((link, idx) => (
           <div key={idx}>
             <Link
@@ -36,7 +36,6 @@ export default function Navbar() {
           </div>
         ))}
       </div>
-
       <div>
         <ModeToggle />
       </div>
