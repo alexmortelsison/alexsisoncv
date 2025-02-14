@@ -8,7 +8,7 @@ import { TbBrandMongodb } from "react-icons/tb";
 import { FaAws } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { DiReact } from "react-icons/di";
-import { AiOutlineTwitter } from "react-icons/ai";
+import { FaXTwitter } from "react-icons/fa6";
 import Image from "next/image";
 import { Github, InstagramIcon } from "lucide-react";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -43,7 +43,7 @@ export default function AboutPage() {
         </p>
         <div className="flex pt-2 space-x-2">
           <a href={"https://x.com/urmrdev"} target="_blank">
-            <AiOutlineTwitter className="h-6 w-6" />
+            <FaXTwitter className="h-6 w-6" />
           </a>
           <a href={"https://github.com/alexmortelsison"} target="_blank">
             <Github className="h-6 w-6" />

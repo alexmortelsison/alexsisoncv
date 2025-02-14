@@ -1,5 +1,5 @@
 import { Github, InstagramIcon, Mail, Phone } from "lucide-react";
-import { AiOutlineTwitter } from "react-icons/ai";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function ContactPage() {
   return (
@@ -29,7 +29,7 @@ export default function ContactPage() {
           target="_blank"
           className="transform hover:scale-125 duration-200"
         >
-          <AiOutlineTwitter className="h-6 w-6" />
+          <FaXTwitter className="h-6 w-6" />
         </a>
         <a
           href={"https://github.com/alexmortelsison"}
