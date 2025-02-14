@@ -24,7 +24,7 @@ const stackLink = [
 
 export default function Home() {
   return (
-    <div className="max-w-4xl mx-auto flex flex-col justify-center items-center h-[80vh] text-center">
+    <div className="max-w-4xl mx-auto flex flex-col justify-center items-center h-[80vh] text-center font-mono tracking-tighter">
       <div>
         <h1 className=" text-5xl md:text-7xl font-extrabold font-mono">
           Hi, I&apos;m Alex.
