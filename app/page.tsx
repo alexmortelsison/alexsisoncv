@@ -1,3 +1,5 @@
+import { SiAmazons3 } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import { SiShadcnui, SiTailwindcss } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
@@ -10,9 +12,11 @@ const words = ["Frontend", "Backend", "Full Stack"];
 const stackLink = [
   { icon: TbBrandNextjs },
   { icon: DiReact },
+  { icon: SiTypescript },
   { icon: SiTailwindcss },
   { icon: SiShadcnui },
   { icon: FaAws },
+  { icon: SiAmazons3 },
   { icon: DiMongodb },
 ];
 
@@ -24,7 +28,7 @@ export default function Home() {
           Hi, I&apos;m Alex.
         </h1>
       </div>
-      <div className="flex font-mono text-xl md:text-3xl font-extrabold pt-4 text-muted-foreground">
+      <div className="flex text-xl md:text-3xl font-bold pt-4 text-muted-foreground">
         <h2>
           I&apos;m a {""}
           <FlipWords words={words} />
