@@ -3,7 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export default function ContactPage() {
   return (
-    <div className="max-w-4xl mx-auto font-mono flex flex-col justify-center items-center mt-44">
+    <div className="max-w-4xl mx-auto font-mono flex flex-col justify-center items-center mt-44 text-center">
       <h2 className="flex justify-center text-4xl font-bold items-center">
         Feel free to contact me.
       </h2>
