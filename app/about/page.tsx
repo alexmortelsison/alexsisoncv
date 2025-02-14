@@ -109,6 +109,7 @@ export default function AboutPage() {
               <FaAws size={44} />
               <SiAmazons3 size={44} className="pl-2" />
               <TbBrandMongodb size={44} />
+              <Github size={44} />
             </div>
           </div>
 

@@ -7,6 +7,7 @@ import { DiReact } from "react-icons/di";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FlipWords } from "@/components/ui/flip-words";
 import Footer from "./components/Footer";
+import { Github } from "lucide-react";
 const words = ["Frontend", "Backend", "Full Stack"];
 
 const stackLink = [
@@ -18,6 +19,7 @@ const stackLink = [
   { icon: FaAws },
   { icon: SiAmazons3 },
   { icon: DiMongodb },
+  { icon: Github },
 ];
 
 export default function Home() {
