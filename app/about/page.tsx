@@ -15,7 +15,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 
 export default function AboutPage() {
   return (
-    <div className="max-w-4xl mx-auto grid grid-cols-4 pt-8 font-mono">
+    <div className="max-w-4xl mx-auto grid grid-cols-4 pt-8 font-mono px-2 lg:px-0">
       <div className="col-span-1 border-r h-screen pr-8">
         <Image
           src="/alex.jpg"
@@ -90,7 +90,7 @@ export default function AboutPage() {
         <span className="font-bold text-orange-600">Next.js</span>, ensuring
         applications are not only fast and efficient but also maintainable and
         future-proof.
-        <div className="mt-16">
+        <div className="mt-16 mb-4">
           <div>
             <h1 className="text-xl mb-2">Main Stack</h1>
             <div className="flex space-x-2 items-center">
@@ -102,7 +102,7 @@ export default function AboutPage() {
                 alt="nextauth"
                 width={60}
                 height={60}
-                className="px-2 grayscale"
+                className="px-2 grayscale md:h-12 md:w-16 h-6 w-12"
               />
               <SiTailwindcss size={44} />
               <SiShadcnui size={40} className="pr-2" />
