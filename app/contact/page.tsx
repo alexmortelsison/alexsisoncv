@@ -18,10 +18,10 @@ export default function ContactPage() {
         </a>
       </div>
       <div className="flex justify-center mt-8">
-        <p className="flex space-x-2">
+        <h2 className="flex space-x-2">
           <Phone />
           <p>+8170 3363 2542</p>
-        </p>
+        </h2>
       </div>
       <div className="flex pt-2 space-x-4 mt-8">
         <a

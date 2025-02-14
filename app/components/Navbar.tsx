@@ -38,7 +38,7 @@ export default function Navbar() {
           </div>
         ))}
       </div>
-      <div className="flex items-center space-x-2">
+      <div className="flex items-center justify-center space-x-2">
         <ModeToggle />
         <UserNav />
       </div>

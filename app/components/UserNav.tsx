@@ -11,7 +11,7 @@ import Link from "next/link";
 
 export default function UserNav() {
   return (
-    <div className="md:hidden">
+    <div className="md:hidden flex">
       <DropdownMenu>
         <DropdownMenuTrigger>
           <MenuIcon />
