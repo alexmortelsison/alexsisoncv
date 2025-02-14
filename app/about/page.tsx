@@ -16,7 +16,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 export default function AboutPage() {
   return (
     <div className="max-w-4xl mx-auto grid grid-cols-4 pt-8 font-mono px-2 lg:px-0">
-      <div className="col-span-1 border-r h-screen pr-8">
+      <div className="hidden md:inline-block col-span-1 border-r h-screen pr-8">
         <Image
           src="/alex.jpg"
           alt="profile photo"
@@ -56,7 +56,7 @@ export default function AboutPage() {
           </a>
         </div>
       </div>
-      <div className="col-span-3 pl-8">
+      <div className="md:col-span-3 md:pl-8 col-span-4 text-center md:text-start px-4 md:px-0">
         <p>
           I am Alex Sison, a dedicated{" "}
           <span className="font-bold text-orange-600">web developer</span> with
@@ -90,7 +90,7 @@ export default function AboutPage() {
         <span className="font-bold text-orange-600">Next.js</span>, ensuring
         applications are not only fast and efficient but also maintainable and
         future-proof.
-        <div className="mt-16 mb-4">
+        <div className="mt-16 mb-4 flex flex-col justify-center items-center md:items-start">
           <div>
             <h1 className="text-xl mb-2">Main Stack</h1>
             <div className="flex space-x-2 items-center">
@@ -113,7 +113,7 @@ export default function AboutPage() {
           </div>
 
           <div>
-            <h1 className="text-xl mt-8 mb-2">Other Stack</h1>
+            <h1 className="text-xl mt-10 mb-2">Other Stack</h1>
             <div className="flex space-x-2 items-center">
               <DiJavascript1 size={44} />
               <Image
