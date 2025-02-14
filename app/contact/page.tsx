@@ -11,7 +11,7 @@ export default function ContactPage() {
         <a
           target="_blank"
           href="https://mail.google.com/mail/?view=cm&to=alexmortelsison@gmail.com&su=Hello&body=This%20is%20a%20test%20email"
-          className="flex space-x-2"
+          className="flex space-x-2 hover:underline underline-offset-4"
         >
           <Mail />
           <p>alexmortelsison@gmail.com</p>
