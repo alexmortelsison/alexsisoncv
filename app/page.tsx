@@ -4,8 +4,7 @@ import { FaAws } from "react-icons/fa";
 import { DiReact } from "react-icons/di";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FlipWords } from "@/components/ui/flip-words";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import Footer from "./components/Footer";
 const words = ["Frontend", "Backend", "Full Stack"];
 
 const stackLink = [
@@ -26,22 +25,20 @@ export default function Home() {
         </h1>
       </div>
       <div className="flex font-mono text-xl md:text-3xl font-extrabold pt-4 text-muted-foreground">
-        <p>
+        <h2>
           I&apos;m a {""}
           <FlipWords words={words} />
           developer proficient in Next.js.
-        </p>
+        </h2>
       </div>
-      <Button asChild className="mt-6 font-mono w-[200px]">
-        <Link href={"/about"}>See more</Link>
-      </Button>
-      <div className="flex mt-44 space-x-4 items-center">
+      <div className="flex mt-40 space-x-4 items-center">
         {stackLink.map((link, idx) => (
           <div key={idx}>
             <link.icon className="md:h-12 md:w-12 h-10 w-10" />
           </div>
         ))}
       </div>
+      <Footer />
     </div>
   );
 }
