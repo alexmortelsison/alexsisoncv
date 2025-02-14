@@ -90,7 +90,7 @@ export default function AboutPage() {
         <span className="font-bold text-orange-600">Next.js</span>, ensuring
         applications are not only fast and efficient but also maintainable and
         future-proof.
-        <div className="mt-16 mb-4 flex flex-col justify-center items-center md:items-start">
+        <div className="mt-16 mb-4 flex flex-col justify-center items-center md:items-start px-16 md:px-0">
           <div>
             <h1 className="text-xl mb-2">Main Stack</h1>
             <div className="flex space-x-2 items-center">

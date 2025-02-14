@@ -24,7 +24,7 @@ const stackLink = [
 
 export default function Home() {
   return (
-    <div className="max-w-4xl mx-auto flex flex-col justify-center items-center h-[80vh] text-center font-mono tracking-tighter">
+    <div className="max-w-4xl mx-auto flex flex-col justify-center items-center h-[80vh] text-center font-mono tracking-tighter ">
       <div>
         <h1 className=" text-5xl md:text-7xl font-extrabold font-mono">
           Hi, I&apos;m Alex.
@@ -37,7 +37,7 @@ export default function Home() {
           developer proficient in Next.js.
         </h2>
       </div>
-      <div className="flex mt-40 space-x-4 items-center">
+      <div className="flex mt-40 space-x-4 items-center px-16 md:px-0">
         {stackLink.map((link, idx) => (
           <div key={idx}>
             <link.icon className="md:h-12 md:w-12 h-10 w-10" />
