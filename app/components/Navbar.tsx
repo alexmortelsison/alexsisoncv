@@ -2,11 +2,13 @@
 import Link from "next/link";
 import { ModeToggle } from "./ModeToggle";
 import { usePathname } from "next/navigation";
+import UserNav from "./UserNav";
 
-const navlinks = [
+export const navlinks = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   { name: "Portfolio", href: "/portfolio" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
@@ -36,8 +38,9 @@ export default function Navbar() {
           </div>
         ))}
       </div>
-      <div>
+      <div className="flex items-center space-x-2">
         <ModeToggle />
+        <UserNav />
       </div>
     </nav>
   );
