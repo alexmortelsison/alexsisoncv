@@ -43,16 +43,16 @@ export default function AboutPage() {
         </p>
         <div className="flex pt-2 space-x-2">
           <a href={"https://x.com/urmrdev"} target="_blank">
-            <FaXTwitter className="h-6 w-6" />
+            <FaXTwitter className="h-6 w-6 transform hover:scale-125 duration-200" />
           </a>
           <a href={"https://github.com/alexmortelsison"} target="_blank">
-            <Github className="h-6 w-6" />
+            <Github className="h-6 w-6 transform hover:scale-125 duration-200" />
           </a>
           <a
             href={"https://www.instagram.com/alexmortelsison/"}
             target="_blank"
           >
-            <InstagramIcon className="h-6 w-6" />
+            <InstagramIcon className="h-6 w-6 transform hover:scale-125 duration-200" />
           </a>
         </div>
       </div>
