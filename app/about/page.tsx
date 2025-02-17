@@ -12,6 +12,12 @@ import { FaXTwitter } from "react-icons/fa6";
 import Image from "next/image";
 import { Github, InstagramIcon } from "lucide-react";
 import { TbBrandNextjs } from "react-icons/tb";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Alex Sison | About",
+  description: "Alex Sison Portfolio",
+};
 
 export default function AboutPage() {
   return (

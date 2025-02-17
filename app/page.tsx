@@ -8,7 +8,13 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { FlipWords } from "@/components/ui/flip-words";
 import Footer from "./components/Footer";
 import { Github } from "lucide-react";
+import { Metadata } from "next";
 const words = ["Frontend", "Backend", "Full Stack"];
+
+export const metadata: Metadata = {
+  title: "Alex Sison | Home",
+  description: "Alex Sison Portfolio",
+};
 
 const stackLink = [
   { icon: TbBrandNextjs },

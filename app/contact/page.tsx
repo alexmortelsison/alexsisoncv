@@ -1,5 +1,11 @@
 import { Github, InstagramIcon, Mail, Phone } from "lucide-react";
+import { Metadata } from "next";
 import { FaXTwitter } from "react-icons/fa6";
+
+export const metadata: Metadata = {
+  title: "Alex Sison | Contact",
+  description: "Alex Sison Portfolio",
+};
 
 export default function ContactPage() {
   return (
