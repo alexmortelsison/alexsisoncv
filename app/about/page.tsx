@@ -65,7 +65,7 @@ export default function AboutPage() {
       <div className="md:col-span-3 md:pl-8 col-span-4 text-center md:text-start px-4 md:px-0">
         <p>
           I am Alex Sison, a dedicated{" "}
-          <span className="font-bold text-lime-400">web developer</span> with a
+          <span className="font-bold text-lime-300">web developer</span> with a
           strong passion for creating efficient, high-performing, and
           user-friendly web applications.
         </p>
@@ -73,7 +73,7 @@ export default function AboutPage() {
         <p>
           Before transitioning into web development, I worked as a 3D artist,
           honing my skills in{" "}
-          <span className="font-bold text-lime-400">
+          <span className="font-bold text-lime-300">
             visual design, attention to detail, and creative problem-solving
           </span>
           . This background gives me a unique perspective in crafting visually
@@ -83,17 +83,17 @@ export default function AboutPage() {
         <p>
           With a keen eye for detail and a commitment to continuous improvement,
           I strive to develop digital solutions that enhance{" "}
-          <span className="font-bold text-lime-400">user experience</span> and
+          <span className="font-bold text-lime-300">user experience</span> and
           meet modern web standards.
         </p>
         <br />
         My expertise lies in developing{" "}
-        <span className="font-bold text-lime-400">
+        <span className="font-bold text-lime-300">
           scalable and optimized web applications
         </span>
         , leveraging modern technologies to build seamless and interactive user
         interfaces. I specialize in{" "}
-        <span className="font-bold text-lime-400">Next.js</span>, ensuring
+        <span className="font-bold text-lime-300">Next.js</span>, ensuring
         applications are not only fast and efficient but also maintainable and
         future-proof.
         <div className="mt-16 mb-4 flex flex-col justify-center items-center md:items-start px-16 md:px-0">
