@@ -1,3 +1,4 @@
+import { SiRedux } from "react-icons/si";
 import { SiAmazons3 } from "react-icons/si";
 import { SiShadcnui, SiTailwindcss } from "react-icons/si";
 import { SiPrisma } from "react-icons/si";
@@ -5,7 +6,6 @@ import { SiSupabase } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import { DiJavascript1 } from "react-icons/di";
 import { TbBrandMongodb } from "react-icons/tb";
-import { FaAws } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { DiReact } from "react-icons/di";
 import { FaXTwitter } from "react-icons/fa6";
@@ -100,39 +100,96 @@ export default function AboutPage() {
           <div>
             <h1 className="text-xl mb-2">Main Stack</h1>
             <div className="flex space-x-2 items-center">
-              <TbBrandNextjs size={48} />
-              <DiReact size={48} />
-              <SiTypescript size={44} />
-              <Image
-                src={"/nextauth.png"}
-                alt="nextauth"
-                width={60}
-                height={60}
-                className="px-2 grayscale md:h-12 md:w-16 h-6 w-12"
-              />
-              <SiTailwindcss size={44} />
-              <SiShadcnui size={40} className="pr-2" />
-              <FaAws size={44} />
-              <SiAmazons3 size={44} className="pl-2" />
-              <TbBrandMongodb size={44} />
-              <Github size={44} />
+              <div className="grid grid-cols-2 lg:grid-cols-5 gap-2">
+                <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
+                  <TbBrandNextjs size={48} />
+                  <p>NextJS</p>
+                </div>
+                <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
+                  <DiReact size={48} />
+                  <p>ReactJS</p>
+                </div>
+                <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
+                  <SiTypescript size={44} />
+                  <p>Typescript</p>
+                </div>
+                <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
+                  <Image
+                    src={"/nextauth.png"}
+                    alt="nextauth"
+                    width={60}
+                    height={60}
+                    className="px-2 grayscale md:h-12 md:w-16 h-6 w-12"
+                  />
+                  <p>NextAuth</p>
+                </div>
+                <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
+                  <SiTailwindcss size={44} />
+                  <p>Tailwind</p>
+                </div>
+                <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
+                  <SiShadcnui size={40} className="pr-2" />
+                  <p>ShadcnUI</p>
+                </div>
+                <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
+                  <SiRedux size={44} />
+                  <p>Redux</p>
+                </div>
+                <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
+                  <SiAmazons3 size={44} className="pl-2" />
+                  <p>AWS S3</p>
+                </div>
+                <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
+                  <TbBrandMongodb size={44} />
+                  <p>MongoDB</p>
+                </div>
+                <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
+                  <Github size={44} />
+                  <p>Github</p>
+                </div>
+              </div>
             </div>
           </div>
 
           <div>
             <h1 className="text-xl mt-10 mb-2">Other Stack</h1>
-            <div className="flex space-x-2 items-center">
-              <DiJavascript1 size={44} />
-              <Image
-                src={"/clerk.png"}
-                alt="nextauth"
-                width={60}
-                height={60}
-                className="px-2"
-              />
-              <SiFirebase size={40} />
-              <SiSupabase size={40} />
-              <SiPrisma size={40} />
+            <div className="grid grid-cols-2 lg:grid-cols-6 gap-2">
+              <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
+                <DiJavascript1 size={44} />
+                <p>Javascript</p>
+              </div>
+              <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
+                <Image
+                  src={"/clerk.png"}
+                  alt="nextauth"
+                  width={60}
+                  height={60}
+                  className="px-2"
+                />
+                <p>Clerk</p>
+              </div>
+              <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
+                <SiFirebase size={40} />
+                <p>Firebase</p>
+              </div>
+              <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
+                <SiSupabase size={40} />
+                <p>Supabase</p>
+              </div>
+              <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
+                <SiPrisma size={40} />
+                <p>Prisma</p>
+              </div>
+              <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
+                <Image
+                  src={"/sanity.png"}
+                  alt="nextauth"
+                  width={120}
+                  height={120}
+                  className="object-cover pt-4 pb-2 filter grayscale"
+                />
+                <p>Sanity</p>
+              </div>
             </div>
           </div>
         </div>

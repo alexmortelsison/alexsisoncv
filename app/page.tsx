@@ -1,3 +1,4 @@
+import { SiRedux } from "react-icons/si";
 import { SiAmazons3 } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
@@ -22,6 +23,7 @@ const stackLink = [
   { icon: SiTypescript },
   { icon: SiTailwindcss },
   { icon: SiShadcnui },
+  { icon: SiRedux },
   { icon: FaAws },
   { icon: SiAmazons3 },
   { icon: DiMongodb },
