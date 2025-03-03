@@ -20,7 +20,7 @@ export default function ContactPage() {
           className="flex space-x-2 hover:underline underline-offset-4"
         >
           <Mail />
-          <p>alexmortelsison@gmail.com</p>
+          <p>alexismortelsison@gmail.com</p>
         </a>
       </div>
       <div className="flex justify-center mt-8">
