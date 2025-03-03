@@ -9,8 +9,10 @@ import {
 import { MenuIcon } from "lucide-react";
 import { navlinks } from "./Navbar";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function UserNav() {
+  const pathName = usePathname();
   return (
     <div className="md:hidden flex">
       <DropdownMenu>
@@ -21,7 +23,16 @@ export default function UserNav() {
           <DropdownMenuGroup>
             {navlinks.map((link, idx) => (
               <DropdownMenuItem key={idx} className="flex justify-center">
-                <Link href={link.href}>{link.name}</Link>
+                <Link
+                  href={link.href}
+                  className={`${
+                    pathName === link.href
+                      ? "font-bold font-mono"
+                      : "text-muted-foreground font-mono"
+                  }`}
+                >
+                  {link.name}
+                </Link>
               </DropdownMenuItem>
             ))}
           </DropdownMenuGroup>
