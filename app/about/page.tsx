@@ -111,7 +111,7 @@ export default function AboutPage() {
                 </div>
                 <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
                   <SiTypescript size={44} />
-                  <p>Typescript</p>
+                  <p className="text-sm md:text-base">Typescript</p>
                 </div>
                 <div className="border rounded-xl border-white p-4 flex flex-col justify-center items-center h-[100px] w-[100px] hover:scale-110 duration-300">
                   <Image
