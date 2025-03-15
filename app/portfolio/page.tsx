@@ -10,7 +10,7 @@ export default function PortfolioPage() {
     <div className="max-w-5xl mx-auto px-4">
       <div className="border border-muted-foreground rounded-xl">
         <video
-          src="/rough.mp4"
+          src="/techhub.mp4"
           muted
           loop
           autoPlay={true}
@@ -18,16 +18,16 @@ export default function PortfolioPage() {
         />
         <p className="flex justify-center mt-4 text-xl font-mono font-bold">
           <a
-            href="http://www.wearly.vercel.app"
+            href="https://techhub-snowy.vercel.app/"
             target="_blank"
             className="hover:underline-offset-4 hover:underline animate-pulse duration-30000"
           >
-            Wearly.
+            TechHub
           </a>
         </p>
         <p className="text-muted-foreground text-center mt-2 font-mono lg:px-12 pb-4 text-sm px-4">
           A modern e-commerce website using{" "}
-          <span className="text-lime-300 font-bold">Next.js</span> for fast{" "}
+          <span className="text-lime-300 font-bold">Next.js,</span>{" "}
           <span className="text-lime-300 font-bold">
             NextAuth for authentication
           </span>{" "}

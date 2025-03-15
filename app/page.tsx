@@ -38,14 +38,14 @@ export default function Home() {
           Hi, I&apos;m Alex.
         </h1>
       </div>
-      <div className="flex text-xl md:text-3xl font-bold pt-4 text-muted-foreground">
+      <div className="flex text-xl md:text-3xl font-bold pt-4 text-muted-foreground px-2">
         <h2>
           I&apos;m a {""}
           <FlipWords words={words} />
           developer proficient in Next.js.
         </h2>
       </div>
-      <div className="flex mt-40 space-x-4 items-center px-16 md:px-0">
+      <div className="grid grid-cols-5 lg:flex place-items-center mt-40 space-x-4 items-center px-16 md:px-0">
         {stackLink.map((link, idx) => (
           <div key={idx}>
             <link.icon className="md:h-12 md:w-12 h-10 w-10" />
